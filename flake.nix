@@ -25,7 +25,7 @@
           
           shellHook = ''
             export LD_LIBRARY_PATH=${pkgs.lib.makeLibraryPath dependencies}
-            export DOTNET_ROOT=${pkgs-unstable.dotnet-sdk_10}
+            export DOTNET_ROOT=${pkgs-unstable.dotnet-sdk_10}/share/dotnet
           '';
         };
       }
