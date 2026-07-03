@@ -301,6 +301,6 @@ desktop.ini
 # Zed configuration
 .zed/
 
-# Ignore further envrc changes so we can store secrets
-# Forcefully stage for future permanent changes
-.envrc
+# Ignore further env changes so we can store secrets
+.env
+*.pem
